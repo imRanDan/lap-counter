@@ -1,0 +1,73 @@
+body {
+    background-image: url(time-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    background: white;
+    max-width: 70%;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #2C2891;
+}
+
+#increment-btn:hover {
+    background: #2c2891c2; 
+    cursor: pointer;
+}
+
+#save-btn {
+    background: #1C7947;
+}
+
+#save-btn:hover {
+    background: #1c7947c2; 
+    cursor: pointer; 
+}
+
+#reset-btn {
+    background:#b50808;
+}
+
+#reset-btn:hover {
+    background:#b50808c2;
+    cursor: pointer;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
