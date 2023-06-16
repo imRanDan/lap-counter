@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background: white;
+    background: rgb(255, 255, 255);
     max-width: 70%;
     margin: 0 auto;
     border: 3px solid black;
@@ -21,6 +21,8 @@ body {
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    text-shadow: 0px 0px 2px black;
+    color: white;
 }
 
 h2 {
